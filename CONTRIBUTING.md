@@ -1,97 +1,90 @@
-# Contributing Guidelines
+## Contributing to AI & Music Sociology Research
+Thank you for your interest in contributing to this research project! This guide will help you get started.
+Code of Conduct
+This project is committed to fostering an open and welcoming environment. We expect all contributors to:
 
-Thank you for your interest in contributing to the **AI & Music Sociology Research Project**!  
-We welcome contributions from researchers, developers, and musicians who share our goal of exploring the intersection of artificial intelligence, music, and society.
+Use welcoming and inclusive language
+Respect different viewpoints and experiences
+Accept constructive criticism gracefully
+Focus on what's best for the research community
+Show empathy towards other contributors
 
----
+How to Contribute
+Research Contributions
 
-## How to Contribute
+Data Collection: Help expand our datasets with diverse music samples
+Analysis Methods: Propose new analytical approaches or algorithms
+Cultural Expertise: Provide insights on music from different cultural contexts
+Validation Studies: Conduct replication studies or validation experiments
 
-1. **Fork the repository** and create your feature branch:  
-   ```bash
-   git checkout -b feature/my-new-feature
-2. Make your changes in code, notebooks, or documentation.
-3. Commit your changes with clear messages:
-    ```bash
-   git commit -m "Add: exploratory analysis of tempo vs sentiment"
-4. Push to your branch and submit a Pull Request (PR):
-   ```bash
-   git push origin feature/my-new-feature
-5. Your PR will be reviewed as part of our peer review process (see below).
+Code Contributions
 
-## Code Style & Standards
+Fork the repository
+Create a feature branch: git checkout -b feature/new-analysis
+Make your changes
+Add tests: Ensure your code includes appropriate tests
+Update documentation: Update docstrings and README as needed
+Submit a pull request
 
-Follow PEP8 for Python code.
+Research Standards
 
-Use docstrings ("""Example""") for functions and classes.
+Ethical Considerations: All research must comply with ethical standards for human subjects research
+Data Privacy: Ensure all data collection respects user privacy and platform terms of service
+Reproducibility: Code should be documented and reproducible
+Cultural Sensitivity: Research involving cultural music traditions should be conducted respectfully
 
-Jupyter notebooks should:
+Pull Request Process
 
-Be modular (separate exploration vs analysis vs results).
+Update documentation for any new features
+Add tests that cover your changes
+Ensure all tests pass
+Update the CHANGELOG.md
+Request review from maintainers
 
-Include clear markdown explanations between code cells.
+Reporting Issues
+Please use GitHub Issues to report:
 
-Avoid unnecessary execution outputs (clear before committing)
+Bugs in the code
+Problems with data analysis
+Suggestions for new features
+Questions about methodology
 
-## Research Methodology
+Development Setup
+bash# Clone your fork
+git clone https://github.com/yourusername/ai-music-sociology.git
+cd ai-music-sociology
 
-Clearly describe datasets (real or synthetic) used in your notebooks.
+# Set up virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Document any assumptions, limitations, or biases in the analysis.
+# Install development dependencies
+pip install -r requirements.txt
+pip install -e .
 
-Use reproducible workflows (e.g., fixed random seeds for simulations).
+# Run tests
+pytest tests/
+Research Methodology Guidelines
+Data Collection
 
-When adding clustering/ML methods, justify parameter choices (e.g., number of clusters).
+Always respect API rate limits
+Follow platform terms of service
+Anonymize participant data
+Document data sources and collection methods
 
-## Ethical Considerations
+Analysis Standards
 
-Ensure all contributions respect artist rights and copyright law.
+Use appropriate statistical methods
+Account for multiple comparisons when relevant
+Provide confidence intervals and effect sizes
+Consider cultural and demographic factors
 
-When scraping or using APIs (e.g., Spotify), follow their terms of service.
+Reporting Results
 
-Be mindful of bias in datasets (e.g., genre, geography, or language).
+Use clear, accessible language
+Provide both statistical and practical significance
+Acknowledge limitations
+Include code and data availability statements
 
-Interpret results responsibly: avoid overgeneralizations about music and culture.
-
-## Peer Review Process
-
-All contributions will go through a two-step review:
-
-Technical Review
-
-Code runs without errors.
-
-Meets style and reproducibility requirements.
-
-## Research Review
-
-Analysis aligns with the project’s sociological focus.
-
-Interpretations are well-supported and ethically sound.
-
-At least one reviewer from each domain (technical & sociological) should approve before merging.
-
-## Submitting Issues
-
-Use GitHub Issues to report bugs, request features, or suggest improvements.
-
-Please tag issues as: bug, enhancement, research, or documentation.
-
-## A Note for Musicians
-
-If you are a musician or creative contributor:
-
-You can share your insights about genre, mood, performance, or audience impact.
-
-We encourage you to propose new ways to connect AI analysis with lived musical experience.
-
-## Questions?
-
-Open an issue or start a discussion in the repository.
-I forward to building this project with you!
----
-
-
-
-
-
+Questions?
+Feel free to open an issue or contact the maintainers directly for any questions about contributing to this research project.
